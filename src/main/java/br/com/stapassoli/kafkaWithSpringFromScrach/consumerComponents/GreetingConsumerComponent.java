@@ -1,4 +1,4 @@
-package br.com.stapassoli.kafkaWithSpringFromScrach.consumer;
+package br.com.stapassoli.kafkaWithSpringFromScrach.consumerComponents;
 
 import br.com.stapassoli.kafkaWithSpringFromScrach.messageConverter.Greeting;
 import lombok.extern.slf4j.Slf4j;

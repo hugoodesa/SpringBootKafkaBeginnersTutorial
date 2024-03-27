@@ -48,6 +48,12 @@
 			<version>2.17.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-clients</artifactId>
+			<version>3.5.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -56,6 +62,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<mainClass>br.com.stapassoli.kafkaWithSpringFromScrach</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>

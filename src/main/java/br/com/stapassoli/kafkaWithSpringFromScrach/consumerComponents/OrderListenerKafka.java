@@ -1,4 +1,4 @@
-package br.com.stapassoli.kafkaWithSpringFromScrach.consumer;
+package br.com.stapassoli.kafkaWithSpringFromScrach.consumerComponents;
 
 import br.com.stapassoli.kafkaWithSpringFromScrach.DTO.OrderDTO;
 import br.com.stapassoli.kafkaWithSpringFromScrach.service.OrderService;
