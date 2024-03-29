@@ -34,4 +34,8 @@ public class GreetingProducer {
         return new KafkaTemplate<>(greetingProducerFactory());
     }
 
+    //TODO
+    //NEED TO CREATE THE TOPIC IN KAFKA CLI USING THE FOLLOWING COMMANDS:
+    //COMMAND : kafka-console-producer --bootstrap-server localhost:29092 --topic greetingTopic
+
 }
